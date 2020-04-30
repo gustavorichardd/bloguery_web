@@ -1,0 +1,105 @@
+.container {
+ width: 100%;
+ max-width: 1180px;
+ margin: 90px auto;
+}
+
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-bottom: solid 0.25px;
+}
+
+.body {
+ margin-top: 100px;
+}
+
+.posts {
+ padding: 0 30px; 
+}
+
+.title {
+ margin-top: 15px;
+ font-weight: 400;
+ font-size: 20px;
+}
+
+.text {
+ margin-top: 15px;
+ margin-bottom: 10px;
+ font-size: 14px;
+ text-align: justify;
+}
+
+li {
+ list-style-type: none;
+ margin-bottom: 100px;
+ border-top:solid 0.5px;
+ border-left:solid 0.5px;
+ border-radius: 20px;
+ padding: 0 10px;
+ border-color: gray;
+}
+
+.votes {
+ margin-right: 5%Gus;
+ display: grid;
+ width: 6%;
+ grid-template-columns: 1fr 1fr;
+ float: right;
+ width: 5%; 
+}
+
+.votes p {
+ font-size: 15px;
+ color: #63164F
+}
+
+.upVotes {
+ margin-top: 1%;
+ display: grid;
+ width: 6%;
+ grid-template-columns: 1fr 1fr;
+}
+
+.upVotes button {
+ margin-left: 3px;
+ font-size: 10px;
+ width: 20px;
+ height: 20px;
+ border-radius: 4px;
+ border: 1px solid #dcdce6;
+ background: transparent;
+ transition: border-color 0.2s;
+ 
+}
+
+.downVotes {
+ margin-left: 7%;
+ margin-top: 1%;
+ display: grid;
+ width: 6%;
+ grid-template-columns: 1fr 1fr;
+}
+
+.downVotes button {
+ margin-left: 3px;
+ font-size: 10px;
+ width: 20px;
+ height: 20px;
+ border-radius: 4px;
+ border: 1px solid #000;
+ background: transparent;
+ transition: border-color 0.2s;
+}
+
+.body button {
+ border: none;
+ background: none;
+}
+
+.body button:hover {
+ transform: scale(1.5);
+ transition: all 150ms ease-in;
+}
